@@ -135,9 +135,9 @@ const Interested = () => {
         >
           <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:"10px" }}>
             <div style={{ fontSize:"1.2rem", marginBottom:"10px" }}>👤</div>
-            <button style={navBtn} onClick={() => navigate(`/Businessman/Businessmanmyprofile/${language}`)}>{t.myProfile}</button>
+            {/* <button style={navBtn} onClick={() => navigate(`/Businessman/Businessmanmyprofile/${language}`)}>{t.myProfile}</button>
             <button style={navBtn} onClick={() => navigate(`/updateprofile/${language}`)}>{t.updateProfile}</button>
-            <button style={navBtn} onClick={() => navigate(`/saveditems/${language}`)}>{t.savedItems}</button>
+            <button style={navBtn} onClick={() => navigate(`/saveditems/${language}`)}>{t.savedItems}</button> */}
           </div>
           <button style={navBtn}>{t.help}</button>
         </div>

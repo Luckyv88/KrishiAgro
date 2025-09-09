@@ -17,9 +17,9 @@ const VerticalNavbar = ({ t, navigate, language }) => (
   <div style={{ width:"120px", background:"#333", color:"white", padding:"10px", display:"flex", flexDirection:"column", alignItems:"center", fontSize:"0.8rem", justifyContent:"space-between" }}>
     <div style={{ display:"flex", flexDirection:"column", alignItems:"center", gap:"10px" }}>
       <div style={{ fontSize:"1.2rem", marginBottom:"10px" }}>👤</div>
-      <button style={navBtn} onClick={()=>navigate(`/Businessman/Businessmanmyprofile/${language}`)}>{t.myProfile}</button>
+      {/* <button style={navBtn} onClick={()=>navigate(`/Businessman/Businessmanmyprofile/${language}`)}>{t.myProfile}</button>
       <button style={navBtn} onClick={()=>navigate(`/updateprofile/${language}`)}>{t.updateProfile}</button>
-      <button style={navBtn} onClick={()=>navigate(`/saveditems/${language}`)}>{t.savedItems}</button>
+      <button style={navBtn} onClick={()=>navigate(`/saveditems/${language}`)}>{t.savedItems}</button> */}
     </div>
     <button style={navBtn}>{t.help}</button>
   </div>

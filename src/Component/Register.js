@@ -112,8 +112,8 @@ const Registration = () => {
       const res = await API.post("/auth/signup", qs.stringify(formData),
         { headers:{ "Content-Type":"application/x-www-form-urlencoded" }});
       alert(res.data.message);
-      if(formData.role==="farmer")       navigate("/farmer/farmermyprofile");
-      else if(formData.role==="businessman") navigate("/businessman/businessmanmyprofile");
+      if(formData.role==="farmer")       navigate("/");
+      else if(formData.role==="businessman") navigate("/");
     }catch(err){
       console.error("Signup Error:",err);
       alert("Signup Failed ❌");
