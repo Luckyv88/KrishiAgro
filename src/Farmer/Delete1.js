@@ -74,7 +74,7 @@ const Delete1 = () => {
   /* ─── Shared styles ─── */
   const navBtn = { background:"none", border:"none", color:"white", fontSize:"0.8rem", cursor:"pointer" };
   const pageBg = { height:"100vh", fontFamily:"Arial, sans-serif",
-                   backgroundImage:"url('/home1.jpg')", backgroundSize:"cover",
+                    backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`, backgroundSize:"cover",
                    backgroundPosition:"center", color:"white", display:"flex",
                    flexDirection:"column" };
 

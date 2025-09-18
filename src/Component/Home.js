@@ -26,7 +26,7 @@ const Home = () => {
       <div
         className="home-wrapper"
         style={{
-          backgroundImage: "url('/farm.jpg')",
+          backgroundImage: `url(${process.env.PUBLIC_URL}/farm.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundBlendMode: "darken",

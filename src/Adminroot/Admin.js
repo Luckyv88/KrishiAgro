@@ -53,7 +53,7 @@ const Admin = () => {
     display: "flex",
     flexDirection: "column",
     fontFamily: "Arial, sans-serif",
-    backgroundImage: "url('/home1.jpg')",
+    backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundBlendMode: "darken",
@@ -102,7 +102,7 @@ const Admin = () => {
   const middleContentStyle = {
     flex: 1,
     padding: windowWidth <= 480 ? "10px" : "20px",
-    backgroundImage: "url('/home1.jpg')",
+     backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundBlendMode: "darken",

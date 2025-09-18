@@ -117,7 +117,7 @@ const Complaints = () => {
       <div style={{
         height:"100vh", display:"flex", flexDirection:"column",
         fontFamily:"Arial, sans-serif",
-        backgroundImage:"url('/home1.jpg')", backgroundSize:"cover",
+        backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`, backgroundSize:"cover",
         backgroundPosition:"center", backgroundBlendMode:"darken",
         backgroundColor:"rgba(0,0,0,0.6)", color:"white",
       }}>
@@ -160,7 +160,7 @@ const Complaints = () => {
           {/* Middle Content */}
           <div style={{
             flex:1, overflowY:"auto", padding:"20px",
-            backgroundImage:"url('/home1.jpg')", backgroundSize:"cover",
+            backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`, backgroundSize:"cover",
             backgroundPosition:"center", backgroundBlendMode:"darken",
             backgroundColor:"rgba(0,0,0,0.6)",
           }}>

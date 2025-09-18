@@ -30,7 +30,7 @@ const Notloged = () => {
         flexDirection: "column",
         height: "100vh",
         fontFamily: "Arial, sans-serif",
-        backgroundImage: "url('/home1.jpg')",
+        backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundBlendMode: "darken",

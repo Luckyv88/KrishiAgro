@@ -139,7 +139,7 @@ const Registration = () => {
 
       <div style={{
         height:"100vh", fontFamily:"Arial, sans-serif",
-        backgroundImage:"url('/home1.jpg')", backgroundSize:"cover",
+        backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`, backgroundSize:"cover",
         backgroundPosition:"center", color:"white"
       }}>
         {/* ---------- Top Bar ---------- */}

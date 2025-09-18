@@ -166,7 +166,7 @@ const localiseStatus = (status) => {
         height:"100vh",
         width:"100vw",
         fontFamily:"Arial, sans-serif",
-        backgroundImage:"url('/home1.jpg')",
+        backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`,
         backgroundSize:"cover",
         backgroundPosition:"center",
         color:"white",

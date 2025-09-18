@@ -127,7 +127,7 @@ const BusinessmanMyprofile = () => {
         }
       `}</style>
 
-      <div style={{ height: "100vh", fontFamily: "Arial, sans-serif", backgroundImage: "url('/home1.jpg')", backgroundSize: "cover", backgroundPosition: "center", color: "white" }}>
+      <div style={{ height: "100vh", fontFamily: "Arial, sans-serif", backgroundImage:`url(${process.env.PUBLIC_URL}/home1.jpg)`, backgroundSize: "cover", backgroundPosition: "center", color: "white" }}>
         <div className="bm-topbar" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", background: "#28a745", padding: "10px 20px", color: "white" }}>
           <div style={{ fontSize: "1.5rem", fontWeight: "bold" }}>Krishi Agro</div>
           <div style={{ fontSize: "1.2rem" }}>{texts.myProfile}</div>
